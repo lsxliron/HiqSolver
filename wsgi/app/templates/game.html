@@ -13,15 +13,17 @@
 </head>
 
 <body>
-	<div id="title" class="title">
-		<h1>Hi-Q Solver</h1>
+<div style="position:absolute; width:100%;">
+	
+	<div id="title" class ="title">
+		<h1 style="width:100%; text-align:center">Hi-Q Solver</h1>
 	</div>
 	
 	<div id="message" class="message">
 	</div>
 	
 
-	<div class="container" style="top:15%; width:100%; text-align:center">
+	<div class="container" style="top:10%; width:100%; text-align:center;">
 
 
 		<img src="{{url_for('static', filename='img/grid.jpg')}}" class="grid">	
@@ -77,21 +79,22 @@
 	</div>
 
 
-<div class="container2" style="position:absolute; text-align:center; margin-top:-5.5%; width:100%; height:20%; display:block;">
-	<form id="findSolution" method="POST" style="position:relative; margin-top:40%; display:block;;">
-		<div id="innerButtons" class="inner">
-			<button class="inner" id="ex1">Example 1</button>
+<div class="container2" style="position:absolute; text-align:center;width:100%;">
+	<form id="findSolution" method="POST" style="position:relative; margin-top:33%; display:block;">
+		<div id="innerButtons" class="inner" style="width:40%; margin-left:30%; margin-right:30%;">
+			<button class="inner" id="ex1" >Example 1</button>
 			<button class="inner" id="ex2">Example 2</button>
 			<button class="inner" id="ex3">Example 3</button>
 		</div>
 
-		<button type="submit" class="submit">Find Solution</button>
+		<button type="submit" class="submit">Find<br>Solution</button>
 	</form>
 
 	<div class="credits">
 		<u>By	Liron Shimrony & Jonatan Shimrony<br>
 		CSC44800 Spring 2014</u>
 	</div>
+</div>
 </div>
 	
 
